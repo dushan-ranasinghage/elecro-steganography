@@ -1,0 +1,7 @@
+html {
+    overflow:hidden !important;
+    }
+
+    .ui.inverted.menu .item:before {
+        background: none;
+    }
