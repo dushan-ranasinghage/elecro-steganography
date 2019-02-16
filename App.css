@@ -5,3 +5,19 @@ html {
     .ui.inverted.menu .item:before {
         background: none;
     }
+
+.second-root{
+    -webkit-app-region: no-drag;
+}
+
+.sub-menu{
+    color: #fff;
+}
+
+.menu-item{
+    cursor: pointer !important;
+}
+
+.close{
+    color: red;
+}

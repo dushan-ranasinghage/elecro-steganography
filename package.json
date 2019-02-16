@@ -21,6 +21,7 @@
     "electron-prebuilt-compile": "^4.0.0"
   },
   "dependencies": {
+    "electron-packager": "^13.0.1",
     "electron-reload": "^1.4.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

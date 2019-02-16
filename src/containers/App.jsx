@@ -18,6 +18,8 @@ import {
   Message
  } from 'semantic-ui-react'
 
+ import SubMenu from '../components/SubMenu'
+
 export default class App extends Component {
   constructor(props){
     super(props)
@@ -37,7 +39,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
+      <div class="second-root">
         <Menu fixed='top' inverted>
           <Container>
             <Menu.Item as='a' header>
@@ -45,6 +47,7 @@ export default class App extends Component {
               Electro Steganography
           </Menu.Item>
           </Container>
+          <SubMenu />
         </Menu>
 
         <Container text style={{ marginTop: '5em' }}>
