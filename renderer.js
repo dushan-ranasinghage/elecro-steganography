@@ -15,3 +15,12 @@ newWindowBtn.addEventListener('click', (event) => {
   win.loadURL(modalPath)
   win.show()
 })
+
+// f5 to reload and f12 to dev tools bind
+// document.addEventListener("keydown", function (e) {
+//   if (e.which === 123) {
+//     require('remote').getCurrentWindow().toggleDevTools();
+//   } else if (e.which === 116) {
+//     location.reload();
+//   }
+// });

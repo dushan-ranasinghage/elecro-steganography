@@ -43,8 +43,8 @@ export default class App extends Component {
         <Menu fixed='top' inverted>
           <Container>
             <Menu.Item as='a' header>
-              <Image size='mini' src='./electron.svg' style={{ marginRight: '1.5em' }} />
-              Electro Steganography
+              {/* <Image size='mini' src='./electron.svg' id="logo" height="10px"/> */}
+              <span class="brand-name">Electro Steganography</span>
           </Menu.Item>
           </Container>
           <SubMenu />
@@ -53,7 +53,7 @@ export default class App extends Component {
         <Container text style={{ marginTop: '5em' }}>
           <Message
             icon='inbox'
-            header='Select your image and hide something!'
+            header='Make your secrets invisible!'
             content='Effective way to exchange hidden messages without raising suspicion.'
           />
           <Segment placeholder>

@@ -10,14 +10,51 @@ html {
     -webkit-app-region: no-drag;
 }
 
+/* #logo{
+    animation: App-logo-spin infinite 50s linear ;
+    pointer-events: none;
+    margin-right: 1.5em;
+} */
+
+/* @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+  
+.brand-name{
+    padding-left: 10px;
+}
+
 .sub-menu{
     color: #fff;
+    -webkit-app-region: no-drag;
+    width:150px;
 }
 
-.menu-item{
+#menu-item{
     cursor: pointer !important;
+    height: 40px;
+    font-size: x-large;
+    width: 40px;
+    padding-top: 9px;
 }
 
-.close{
-    color: red;
+#menu-item:hover{
+    background-color: cadetblue;
+}
+
+#menu-item-close{
+    cursor: pointer !important;
+    height: 40px;
+    font-size: x-large;
+    width: 40px;
+    padding-top: 9px;
+}
+
+#menu-item-close:hover{
+    background-color: red;
 }

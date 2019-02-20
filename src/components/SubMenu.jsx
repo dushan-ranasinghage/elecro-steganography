@@ -9,9 +9,9 @@ export default class SubMenu extends Component {
     return (
         <React.Fragment>
             <div class="sub-menu">
-                <Icon name='minus' class="menu-item"/>
-                <Icon name='square outline' class="menu-item"/>
-                <Icon name='close' class="menu-item close" onClick={()=>window.close()}/>
+                <Icon name='minus' id="menu-item" onClick={()=> window.minimize() }/>
+                <Icon name='square outline' id="menu-item"/>
+                <Icon name='close' id="menu-item-close" onClick={()=>window.close()}/>
             </div>
             
         </React.Fragment>
