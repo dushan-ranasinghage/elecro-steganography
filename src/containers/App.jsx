@@ -43,7 +43,7 @@ export default class App extends Component {
         <Menu fixed='top' inverted>
           <Container>
             <Menu.Item as='a' header>
-              {/* <Image size='mini' src='./electron.svg' id="logo" height="10px"/> */}
+              <Image size='mini' src='./electron.svg' id="logo"/>
               <span class="brand-name">Electro Steganography</span>
           </Menu.Item>
           </Container>
