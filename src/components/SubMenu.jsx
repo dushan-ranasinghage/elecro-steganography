@@ -13,7 +13,6 @@ export default class SubMenu extends Component {
                 <Icon name='square outline' id="menu-item"/>
                 <Icon name='close' id="menu-item-close" onClick={()=>window.close()}/>
             </div>
-            
         </React.Fragment>
     )
   }
